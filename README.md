@@ -19,14 +19,14 @@ As of version 1.0.0, the program is written for python 3.7. It uses the followin
 Then, activate the environment with “current directory address of file where it was available” followed by streamlit run CarDheko.py.
 # Py Files:
 ```
-1.	CapstoneProject3Preprocessing.ipynb -> Pre-processing code is available.
-2.	CapstoneProject3ModelDevelopmentandEvaluation.ipynb  Model development and evaluation related codes are available in this file
-3.	CarDheko.py -> User-Interface Streamlit code is available in this file.
+1.	## CapstoneProject3Preprocessing.ipynb: ##  Pre-processing code is available.
+2.	## CapstoneProject3ModelDevelopmentandEvaluation.ipynb: ## Model development and evaluation related codes are available in this file
+3.	## CarDheko.py: ## User-Interface Streamlit code is available in this file.
 ```
 # Program Usage:
 ```
 •	Using the functions fillna(), pandas.to_numeric(), pandas.getdummies(data_frame,columns=[]), structured data will be pre-processed and cleaned data will be available.
-•	Customized function ##“replace_outliers (data)”## is used to find the upper and lower bound using IQR technique to eliminate or replace the outliers with setting threshold. Here we need to pass the parameter single column in data_frame to find respective upper and lower bound.
+•	Customized function ## “replace_outliers (data)” ## is used to find the upper and lower bound using IQR technique to eliminate or replace the outliers with setting threshold. Here we need to pass the parameter single column in data_frame to find respective upper and lower bound.
 •	Using the function train_test_split() to split the data into train and test data to verify whether model will learn the pattern in the data or not.
 •	Using the function fit() to train the model based on imported algorithm (LinearRegression or DecissioTreeRegressor or RandomForestRegression or SupportVectorRegression)
 •	Using the function Open() function to create a new file or open existing file in desired location.
